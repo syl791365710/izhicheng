@@ -1,8 +1,12 @@
-# i至诚自动化打卡
+# i至诚自动化打卡（含视频教程）
 
 i至诚疫情防控每日填报助手，用于解决忘记填写每日打卡的问题。
 
-**GitHub Action 每60天会自动关闭，需要手动重启**
+**推荐 方法一 和 方法二 同时使用**
+
+***文字看不懂，可以看图文版或者视频教程***
+
+**GitHub Action 每60天会自动关闭，需要手动重启** **（[重启教程 （点这里！！！具体截图）](https://github.com/Lin1031/izhicheng/blob/main/README/README_UPDATE.md)）**
 
 
 # 注意
@@ -25,6 +29,9 @@ i至诚疫情防控每日填报助手，用于解决忘记填写每日打卡的�
 # 更新
 
 ```
+2022.10.19 提示：推荐 方法一 和 方法二 同时使用
+           修复：GitHub Action 缺少 packaging 库问题
+2022.08.28 增加：GitHub Action 60天重启教程
 2022.07.05 修复：selenium 缺少 typing_extensions 库的问题
 2022.06.11 更新：增加 Windows/Linux 重试次数
 2022.06.10 更新：添加请求头
@@ -60,6 +67,7 @@ i至诚疫情防控每日填报助手，用于解决忘记填写每日打卡的�
 # GitHub Actions 使用视频
 **[使用步骤视频（点这里！！！）](https://www.bilibili.com/video/BV1NZ4y1a7He/)**
 
+[![使用步骤视频](https://images.cnblogs.com/cnblogs_com/Lin1031/1924181/o_220827121244_izhicheng.png)](https://www.bilibili.com/video/BV1NZ4y1a7He?share_source=copy_web)
 
 
 # 方法一： 使用自己的服务器运行
@@ -92,7 +100,7 @@ Github提供了一个secret功能，用于存储密钥等敏感信息，请按�
 
 建议更改` .github/workflows/main.yml `中的 schedule 时间设置，避免过的人使用导致打卡失败
 
-# 方法三： 使用 GitHub Actions（request）
+# 方法三： 使用 GitHub Actions（推荐使用，适合20+人一起打卡）
 **[步骤截图 （点这里！！！具体截图）](https://github.com/Lin1031/izhicheng/blob/main/README/README_RE.md)**
 
 **使用步骤:**
